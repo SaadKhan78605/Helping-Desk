@@ -1,0 +1,1350 @@
+/* ========================= 1200px ================================ */
+
+
+
+@media screen and (max-width: 1199.98px) {
+
+    .headingText h1 {
+        font-size: 63px;
+        line-height: 78px;
+    }
+
+    .headingText h6 {
+        font-size: 23px;
+        line-height: 27px;
+        padding-top: 16px;
+    }
+
+    .headingText p {
+        padding-top: 18px;
+    }
+
+    .headingText .hero-btn {
+        font-size: 18px;
+        line-height: 24px;
+        width: 215px;
+        margin-top: 23px;
+    }
+
+    .headingText {
+        padding-left: 60px;
+    }
+
+    .section-1-inner .bottom-div .left-div {
+        margin-right: 6px;
+    }
+
+    .upper-div .right-div #up-img {
+        width: 200px;
+        height: 130px;
+        bottom: 184px;
+        left: 147px;
+    }
+
+    .upper-div .right-div #about-img {
+        width: 370px;
+        height: 370px;
+    }
+
+    .upper-div .right-div #down-img {
+        width: 171px;
+        height: 140px;
+        top: 163px;
+        right: 142px;
+    }
+
+    .section-3-inner .upper-div .left-div h2 {
+        padding-bottom: 0px;
+    }
+
+    #section-3 {
+        height: 1270px;
+    }
+
+    .right-div .form-container form {
+        width: 537px;
+        height: 410px;
+    }
+
+    .container .footer-inner .icons {
+        margin-right: 70px;
+    }
+
+    #scroll {
+        bottom: 60px;
+        right: 16px;
+    }
+
+}
+
+
+/* ========================= 992px ================================ */
+
+
+@media screen and (max-width: 991.98px) {
+
+
+    /* Hamburger Starts */
+    .hamburger {
+        display: block;
+    }
+
+    header {
+        padding: 17px 0;
+    }
+
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+
+    }
+
+    .nav-menu {
+        position: fixed;
+        left: -250%;
+        top: 13%;
+        gap: 0;
+        flex-direction: column;
+        background-color: rgba(0, 0, 0, 0.9);
+        width: 100%;
+        text-align: center;
+        transition: 0.5s;
+    }
+
+    .navbar .nav-menu .nav-item {
+        margin: 0px 0;
+        padding: 12px 0;
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .nav-menu .nav-item:hover {
+        background-color: #262626;
+    }
+
+    .nav-menu.active {
+        left: 0;
+    }
+
+    .number .header-number {
+        margin-left: 0;
+    }
+
+    /* Hamburger Ends */
+    .navbar .logo {
+        font-size: 36px;
+    }
+
+    .black {
+        padding: 7px 0;
+    }
+
+    .container .section-1-inner p {
+        width: 700px;
+    }
+
+    #section-1 .container .section-1-inner {
+        padding-top: 100px;
+    }
+
+    .section-1-inner .bottom-div {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section-1-inner .bottom-div .left-div {
+        margin-right: 0;
+        margin-bottom: 50px;
+        width: 100%;
+    }
+
+    .section-1-inner .bottom-div .right-div {
+        width: 100%;
+    }
+
+    #section-1 {
+        height: 100%;
+    }
+
+    #section-2 .container .section-2-inner .p1 {
+        width: 730px;
+    }
+
+    #section-2 .container .section-2-inner .p2 {
+        width: 730px;
+    }
+
+    #section-3 {
+        height: 100%;
+    }
+
+    .container .section-3-inner .upper-div {
+        flex-direction: column;
+    }
+
+    .section-3-inner .upper-div .left-div {
+        width: 100%;
+    }
+
+    .section-3-inner .upper-div .right-div {
+        width: 100%;
+    }
+
+    .container .section-3-inner .upper-div {
+        height: 100%;
+    }
+
+    .section-3-inner .upper-div .left-div {
+        margin-bottom: 150px;
+    }
+
+    .section-3-inner .upper-div .left-div h2 {
+        text-align: center;
+    }
+
+    .section-3-inner .upper-div .left-div .p1 {
+        text-align: center;
+    }
+
+    .section-3-inner .upper-div .left-div .p2 {
+        text-align: center;
+    }
+
+    .upper-div .right-div #about-img {
+        width: 460px;
+        height: 460px;
+    }
+
+    .upper-div .right-div #up-img {
+        width: 250px;
+        height: 155px;
+        bottom: 240px;
+        left: 124px;
+    }
+
+    .upper-div .right-div #down-img {
+        width: 250px;
+        height: 155px;
+        top: 187px;
+        right: 138px;
+    }
+
+    .container .section-3-inner .mid-div {
+        width: 710px;
+    }
+
+    .container .section-3-inner .bottom-div {
+        flex-direction: column;
+    }
+
+    #section-5 .container .section-5-inner {
+        flex-direction: column;
+    }
+
+    #section-5 {
+        height: 100%;
+    }
+
+    #section-5 .container .section-5-inner .left-div {
+        width: 100%;
+    }
+
+    #section-5 .container .section-5-inner .right-div {
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    #section-5 .container .section-5-inner {
+        padding: 20px 0 55px 0;
+    }
+
+    .section-5-inner .left-div h2 {
+        text-align: center;
+    }
+
+    .section-5-inner .left-div p {
+        text-align: center;
+        margin-bottom: 60px;
+    }
+
+    .right-div .form-container form {
+        width: 100%;
+        height: 100%;
+    }
+
+
+    .container .footer-inner p {
+        font-size: 16px;
+    }
+
+    .container .footer-inner .icons {
+        margin-right: 80px;
+    }
+
+}
+
+/* ========================= 940px ================================ */
+
+@media screen and (max-width: 940px) {
+    .headingText h1 {
+        font-size: 50px;
+        line-height: 68px;
+    }
+
+    .headingText h6 {
+        font-size: 22px;
+        line-height: 26px;
+    }
+
+    .headingText p {
+        padding-top: 23px;
+    }
+
+    .headingText {
+        padding-left: 33px;
+    }
+
+    .headingText {
+        padding-top: 169px;
+    }
+
+}
+
+
+
+
+/* ========================= 768px ================================ */
+
+
+
+@media screen and (max-width: 767.98px) {
+
+    .hero {
+        height: 110vh;
+    }
+
+
+    .headingText h1 {
+        font-size: 46px;
+        line-height: 67px;
+    }
+
+    .headingText h6 {
+        font-size: 20px;
+        line-height: 26px;
+        padding-top: 13px;
+    }
+
+    .headingText p {
+        padding-top: 15px;
+    }
+
+    .headingText .hero-btn {
+        font-size: 17px;
+        line-height: 24px;
+        width: 184px;
+        margin-top: 23px;
+        height: 56px;
+    }
+
+    .headingText {
+        padding-top: 169px;
+        padding-left: 15px;
+    }
+
+    .number .header-number {
+        font-size: 26px;
+        line-height: 41px;
+    }
+
+    #footer-inner-span {
+        height: 65px;
+        width: 65px;
+    }
+
+    .navbar .logo {
+        font-size: 36px;
+    }
+
+
+    .container .section-1-inner p {
+        width: 517px;
+    }
+
+    #section-1 .container .section-1-inner {
+        padding-top: 70px;
+    }
+
+    .container .section-1-inner p {
+        font-size: 20px;
+        line-height: 32px;
+        padding-bottom: 43px;
+    }
+
+    .section-1-inner .bottom-div .left-div ul li,
+    .section-1-inner .bottom-div .right-div ul li {
+        font-size: 20px;
+        line-height: 46px;
+    }
+
+    .section-1-inner .bottom-div .left-div {
+        height: 100%;
+        margin-bottom: 31px;
+    }
+
+    .section-1-inner .bottom-div .right-div {
+        height: 100%;
+    }
+
+    #section-1 .container .section-1-inner {
+        padding-bottom: 40px;
+    }
+
+    #section-2 .container .section-2-inner .p1 {
+        width: 540px;
+        font-size: 20px;
+        line-height: 32px;
+    }
+
+    #section-2 .container .section-2-inner .p2 {
+        width: 540px;
+        font-size: 20px;
+        line-height: 32px;
+    }
+
+    #section-2 {
+        height: 100%;
+        padding: 50px 0;
+    }
+
+    #section-3 {
+        padding: 0px 0;
+    }
+
+    .section-3-inner .upper-div .left-div .p1 {
+        font-size: 17px;
+        line-height: 28px;
+    }
+
+    .section-3-inner .upper-div .left-div .p1 {
+        font-size: 17px;
+        line-height: 28px;
+    }
+
+    .upper-div .right-div #about-img {
+        width: 452px;
+        height: 360px;
+    }
+
+    .upper-div .right-div #up-img {
+        width: 200px;
+        height: 120px;
+        bottom: 172px;
+        left: 139px;
+    }
+
+    .upper-div .right-div #down-img {
+        width: 200px;
+        height: 120px;
+        top: 180px;
+        right: 141px;
+    }
+
+    .section-3-inner .upper-div .left-div {
+        margin-bottom: 90px;
+    }
+
+    .container .section-3-inner .mid-div {
+        width: 510px;
+    }
+
+    .section-3-inner .mid-div p {
+        font-size: 17px;
+        line-height: 29px;
+    }
+
+    .section-3-inner .upper-div .right-div {
+        padding-bottom: 40px;
+    }
+
+    .container .section-3-inner .bottom-div {
+        padding: 0 0;
+    }
+
+    .container .section-3-inner {
+        padding-bottom: 40px;
+    }
+
+    .section-4-inner .accordians .contentBx {
+        margin: 18px auto;
+        width: 95%;
+    }
+
+    #section-4 .container .section-4-inner .accordians {
+        height: 340px;
+    }
+
+    .section-4-inner .accordians .contentBx .label {
+        padding: 6px;
+        line-height: 19px;
+
+    }
+
+    .content {
+        padding: 0.5rem;
+        font-size: 15px;
+    }
+
+    #section-4 {
+        height: 100%;
+    }
+
+    #section-4 .container .section-4-inner {
+        padding-bottom: 80px;
+        padding-top: 21.6px;
+    }
+
+    #section-5 .container .section-5-inner {
+        padding: 5px 0 55px 0;
+    }
+
+    .section-5-inner .left-div h2 {
+        font-size: 41px;
+        line-height: 49.6px;
+    }
+
+    .section-5-inner .left-div p {
+        font-size: 20px;
+        line-height: 26px;
+        margin-bottom: 45px;
+    }
+
+    #section-5 .container .section-5-inner .right-div {
+        padding: 0 5px;
+    }
+
+
+    #section-5 .container .section-5-inner {
+        padding: 5px 0 60px 0;
+    }
+
+    .container .footer-inner p {
+        font-size: 14px;
+    }
+
+    .container .footer-inner .icons {
+        margin-right: 10px;
+        font-size: 15px;
+    }
+}
+
+/* ========================= 567px ================================ */
+
+
+
+
+@media screen and (max-width: 566.98px) {
+    .headingText h1 {
+        font-size: 36px;
+        line-height: 55px;
+
+    }
+
+    .headingText h6 {
+        font-size: 17px;
+        line-height: 24px;
+        padding-top: 9px;
+    }
+
+    .headingText p {
+        padding-top: 25px;
+    }
+
+
+
+
+
+    .navbar .logo {
+        font-size: 32px;
+    }
+
+    #footer-inner-span {
+        height: 55px;
+        width: 55px;
+    }
+
+    .container .section-1-inner p {
+        width: 437px;
+    }
+
+    .container .section-1-inner p {
+        font-size: 18px;
+        line-height: 28px;
+        padding-bottom: 41px;
+    }
+
+    #section-1 .container .section-1-inner {
+        padding-top: 35px;
+    }
+
+    .section-1-inner .bottom-div .left-div ul li,
+    .section-1-inner .bottom-div .right-div ul li {
+        font-size: 18px;
+        line-height: 42px;
+    }
+
+    .section-1-inner .bottom-div .left-div {
+        margin-bottom: 20px;
+    }
+
+    #section-2 .container .section-2-inner .p1 {
+        width: 450px;
+        font-size: 18px;
+        line-height: 29px;
+    }
+
+    #section-2 .container .section-2-inner .p2 {
+        width: 450px;
+        font-size: 18px;
+        line-height: 29px;
+    }
+
+    .section-3-inner .upper-div .left-div h2 {
+        font-size: 40px;
+        line-height: 40.6px;
+    }
+
+    .section-3-inner .upper-div .left-div .p1 {
+        font-size: 15px;
+        line-height: 24px;
+    }
+
+    .section-3-inner .upper-div .left-div .p2 {
+        font-size: 15px;
+        line-height: 24px;
+    }
+
+    .upper-div .right-div #about-img {
+        width: 404px;
+        height: 317px;
+    }
+
+    .upper-div .right-div #up-img {
+        width: 150px;
+        height: 100px;
+        bottom: 159px;
+        left: 122px;
+    }
+
+    .upper-div .right-div #down-img {
+        width: 150px;
+        height: 100px;
+        top: 152px;
+        right: 120px;
+    }
+
+    #section-3 {
+        padding: 7px 0;
+    }
+
+    .container .section-3-inner .mid-div {
+        width: 423px;
+    }
+
+    .section-3-inner .mid-div p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .section-3-inner .upper-div .right-div {
+        padding-bottom: 35px;
+    }
+
+    .container .section-3-inner .mid-div {
+        margin: 63px auto 34px auto;
+    }
+
+    .section-3-inner .bottom-div .left-div ul li {
+        font-size: 16px;
+        line-height: 32px;
+    }
+
+    .section-3-inner .bottom-div .right-div ul li {
+        font-size: 16px;
+        line-height: 32px;
+    }
+
+    .section-4-inner .accordians .contentBx {
+        margin: 15px auto;
+        width: 98%;
+    }
+
+    #section-4 .container .section-4-inner .accordians {
+        height: 310px;
+    }
+
+    .section-4-inner .accordians .contentBx .label {
+        padding: 7px;
+        line-height: 16px;
+        font-size: 14px;
+    }
+
+    .content {
+        padding: 0.4rem;
+        font-size: 13px;
+    }
+
+    .section-5-inner .left-div h2 {
+        font-size: 35px;
+        line-height: 39.6px;
+    }
+
+    .section-5-inner .left-div p {
+        font-size: 17px;
+        line-height: 20px;
+        margin-bottom: 35px;
+    }
+
+    .form-container form #name {
+        height: 36px;
+        padding: 9px;
+        margin-bottom: 15px;
+        font-size: 14px;
+    }
+
+    .form-container form #email {
+        height: 36px;
+        padding: 9px;
+        margin-bottom: 15px;
+        font-size: 14px;
+    }
+
+    .form-container form #textarea {
+        height: 120px;
+        padding: 9px;
+        margin-bottom: 13px;
+        font-size: 14px;
+    }
+
+    .form-container form .checkbox {
+        margin-bottom: 10px;
+    }
+
+    form .checkbox a,
+    form .checkbox p {
+        font-size: 14px;
+    }
+
+    .form-container form .form-btn {
+        font-size: 16px;
+        line-height: 30px;
+        width: 119px;
+        height: 36px;
+    }
+
+    #section-5 .container .section-5-inner .right-div {
+        padding: 0 0px;
+    }
+
+    .container .footer-inner .icons {
+        margin-right: 8px;
+        font-size: 13px;
+    }
+
+    #scroll {
+        height: 70px;
+        width: 70px;
+        font-size: 15px;
+    }
+}
+
+
+/* ========================= 480px ================================ */
+
+
+
+@media screen and (max-width: 479.98px) {
+
+    .headingText h1 {
+        font-size: 30px;
+        line-height: 45px;
+    }
+
+    .headingText h6 {
+        font-size: 16px;
+        line-height: 23px;
+        padding-top: 6px;
+    }
+
+    .headingText p {
+        padding-top: 18px;
+    }
+
+    .headingText .hero-btn {
+        font-size: 14px;
+        line-height: 24px;
+        width: 160px;
+        margin-top: 35px;
+        height: 47px;
+    }
+
+    #prev-btn,
+    #next-btn {
+        width: 60px;
+        height: 60px;
+    }
+
+
+
+    .navbar .logo {
+        font-size: 30px;
+    }
+
+    .number .header-number {
+        font-size: 25px;
+        line-height: 38px;
+    }
+
+    .navbar .nav-menu .nav-item {
+        line-height: 19px;
+    }
+
+    .container .section-1-inner p {
+        width: 381px;
+    }
+
+    .container .section-1-inner p {
+        font-size: 16px;
+        line-height: 24px;
+        padding-bottom: 32px;
+    }
+
+    .section-1-inner .bottom-div .left-div ul li,
+    .section-1-inner .bottom-div .right-div ul li {
+        font-size: 16px;
+        line-height: 38px;
+    }
+
+    #section-2 .container .section-2-inner .p1 {
+        width: 393px;
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    #section-2 .container .section-2-inner .p2 {
+        width: 393px;
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    #section-2 {
+        height: 100%;
+        padding: 35px 0;
+    }
+
+    .section-3-inner .upper-div .left-div h2 {
+        font-size: 38px;
+        line-height: 35.6px;
+    }
+
+    .section-3-inner .upper-div .left-div .p1 {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .section-3-inner .upper-div .left-div .p2 {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .upper-div .right-div #about-img {
+        width: 355px;
+        height: 280px;
+    }
+
+    .upper-div .right-div #up-img {
+        width: 140px;
+        height: 90px;
+        bottom: 135px;
+        left: 116px;
+    }
+
+    .upper-div .right-div #down-img {
+        width: 140px;
+        height: 90px;
+        top: 132px;
+        right: 107px;
+    }
+
+    .container .section-3-inner .mid-div {
+        width: 373px;
+    }
+
+    .section-3-inner .mid-div p {
+        font-size: 15px;
+        line-height: 24px;
+    }
+
+    .section-3-inner .upper-div .left-div {
+        margin-bottom: 70px;
+    }
+
+    .section-3-inner .upper-div .right-div {
+        padding-bottom: 20px;
+    }
+
+    .section-3-inner .bottom-div .left-div ul li {
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+    .section-3-inner .bottom-div .right-div ul li {
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+    #section-4 .container .section-4-inner {
+        padding-bottom: 74px;
+        padding-top: 1.6px;
+    }
+
+    #section-4 .container .section-4-inner h2 {
+        font-size: 42px;
+        line-height: 50.6px;
+    }
+
+    .section-4-inner .accordians .contentBx {
+        margin: 12px auto;
+        width: 98%;
+    }
+
+    #section-4 .container .section-4-inner .accordians {
+        height: 290px;
+    }
+
+    .content {
+        padding: 0.2rem;
+    }
+
+    .section-5-inner .left-div h2 {
+        font-size: 30px;
+        line-height: 31.6px;
+    }
+
+    .section-5-inner .left-div p {
+        font-size: 16px;
+        line-height: 17px;
+        margin-bottom: 20px;
+    }
+
+    .form-container form #name {
+        height: 32px;
+        padding: 8px;
+        margin-bottom: 13px;
+        font-size: 14px;
+    }
+
+    .form-container form #email {
+        height: 32px;
+        padding: 8px;
+        margin-bottom: 13px;
+        font-size: 14px;
+    }
+
+    .form-container form #textarea {
+        height: 32px;
+        padding: 8px;
+        margin-bottom: 13px;
+        font-size: 14px;
+    }
+
+    .container .footer-inner .icons {
+        margin-right: 5px;
+    }
+
+    .footer-inner .icons #twitter {
+        padding-left: 6px;
+    }
+
+    .footer-inner .icons #facebook {
+        padding-left: 6px;
+    }
+
+    .footer-inner .icons #linkedin {
+        padding-left: 6px;
+    }
+
+    .footer-inner .icons #behance {
+        padding-left: 6px;
+    }
+
+    .footer-inner .icons #google {
+        padding-left: 6px;
+    }
+}
+
+/* ========================= 420px ================================ */
+
+
+
+@media screen and (max-width: 419.98px) {
+
+    .headingText h1 {
+        font-size: 26px;
+        line-height: 38px;
+    }
+    .headingText h6 {
+        font-size: 15px;
+        line-height: 21px;
+        padding-top: 6px;
+    }
+    .headingText p {
+        padding-top: 10px;
+    }
+    .headingText p {
+        font-size: 15px;
+        line-height: 21px;
+    }
+    .headingText{
+        padding-left: 0px;
+        padding-top: 156px;
+    }
+    .hero {
+        height: 88vh;
+    }
+    #prev-btn, #next-btn {
+        width: 50px;
+        height: 50px;
+    }
+
+    .container .section-1-inner p {
+        width: 336px;
+    }
+
+    .container .section-1-inner p {
+        font-size: 15px;
+        line-height: 21px;
+        padding-bottom: 26px;
+    }
+
+    .section-1-inner .bottom-div .left-div {
+        margin-bottom: 20px;
+    }
+
+    .section-1-inner .bottom-div .left-div ul li,
+    .section-1-inner .bottom-div .right-div ul li {
+        font-size: 15px;
+        line-height: 31px;
+    }
+
+    #section-2 .container .section-2-inner .p1 {
+        width: 344px;
+        font-size: 15px;
+        line-height: 22px;
+    }
+
+    #section-2 .container .section-2-inner .p2 {
+        width: 344px;
+        font-size: 15px;
+        line-height: 22px;
+    }
+
+    #section-3 {
+        padding: 0px 0;
+    }
+
+    .section-3-inner .upper-div .left-div h2 {
+        font-size: 38px;
+        line-height: 35.6px;
+    }
+
+    .section-3-inner .upper-div .left-div .p1 {
+        line-height: 21px;
+    }
+
+    .section-3-inner .upper-div .left-div .p2 {
+        line-height: 21px;
+    }
+
+    .upper-div .right-div #about-img {
+        width: 330px;
+        height: 240px;
+    }
+
+    .upper-div .right-div #up-img {
+        width: 130px;
+        height: 80px;
+        bottom: 116px;
+        left: 108px;
+    }
+
+    .upper-div .right-div #down-img {
+        width: 130px;
+        height: 80px;
+        top: 112px;
+        right: 101px;
+    }
+
+    .container .section-3-inner .mid-div {
+        width: 332px;
+    }
+
+    .section-3-inner .mid-div p {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .section-3-inner .bottom-div .left-div ul li {
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    .section-3-inner .bottom-div .right-div ul li {
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    #section-4 .container .section-4-inner h2 {
+        font-size: 39px;
+        line-height: 37.6px;
+    }
+
+    .section-4-inner .accordians .contentBx .label {
+        padding: 5px;
+        line-height: 14px;
+    }
+
+    .content {
+        padding: 0;
+    }
+
+    #section-4 .container .section-4-inner .accordians {
+        height: 269px;
+    }
+
+    .section-5-inner .left-div h2 {
+        font-size: 27px;
+        line-height: 27.6px;
+    }
+
+    .section-5-inner .left-div p {
+        font-size: 15px;
+        line-height: 15px;
+    }
+
+    form .checkbox a,
+    form .checkbox p {
+        font-size: 12px;
+    }
+
+    .form-container form .form-btn {
+        font-size: 14px;
+        line-height: 24px;
+        width: 109px;
+        height: 32px;
+    }
+
+    #section-5 .container .section-5-inner {
+        padding: 5px 0 45px 0;
+    }
+
+    .container .footer-inner p {
+        font-size: 13px;
+    }
+
+    .container .footer-inner .icons {
+        margin-right: 0px;
+    }
+
+    .footer-inner .icons #twitter {
+        padding-left: 3px;
+    }
+
+    .footer-inner .icons #facebook {
+        padding-left: 3px;
+    }
+
+    .footer-inner .icons #linkedin {
+        padding-left: 3px;
+    }
+
+    .footer-inner .icons #behance {
+        padding-left: 3px;
+    }
+
+    .footer-inner .icons #google {
+        padding-left: 3px;
+    }
+
+    #scroll {
+        height: 60px;
+        width: 61px;
+        font-size: 14px;
+    }
+}
+
+
+/* ========================= 375px ================================ */
+
+
+
+
+@media screen and (max-width: 374.98px) {
+    .navbar .logo {
+        font-size: 26px;
+    }
+
+    #footer-inner-span {
+        bottom: 80px;
+    }
+
+    .number .header-number {
+        font-size: 23px;
+        line-height: 35px;
+    }
+
+    .navbar .nav-menu .nav-item {
+        font-size: 17px;
+        line-height: 17px;
+    }
+
+    .container .section-1-inner p {
+        width: 270px;
+    }
+
+    .container .section-1-inner p {
+        font-size: 13px;
+        line-height: 18px;
+        padding-bottom: 28px;
+    }
+
+    .section-1-inner .bottom-div .left-div ul li,
+    .section-1-inner .bottom-div .right-div ul li {
+        font-size: 14px;
+        line-height: 28px;
+    }
+
+    #section-2 .container .section-2-inner .p1 {
+        width: 305px;
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    #section-2 .container .section-2-inner .p2 {
+        width: 305px;
+        font-size: 14px;
+        line-height: 19px;
+    }
+
+    #section-2 {
+        height: 100%;
+        padding: 27px 0;
+    }
+
+    .section-3-inner .upper-div .left-div h2 {
+        font-size: 34px;
+        line-height: 26.6px;
+    }
+
+    .section-3-inner .upper-div .left-div .p1 {
+        padding-bottom: 0px;
+    }
+
+    .upper-div .right-div #about-img {
+        width: 275px;
+        height: 221px;
+    }
+
+    .container .section-3-inner .mid-div {
+        width: 281px;
+    }
+
+    .section-3-inner .mid-div p {
+        line-height: 20px;
+    }
+
+    .container .section-3-inner .mid-div {
+        margin: 59px auto 25px auto;
+    }
+
+    .container .section-3-inner {
+        padding-bottom: 30px;
+    }
+
+    #section-4 .container .section-4-inner h2 {
+        font-size: 35px;
+        line-height: 29.6px;
+    }
+
+    #section-4 .container .section-4-inner .accordians {
+        height: 262px;
+    }
+
+    .section-4-inner .accordians .contentBx {
+        margin: 11px auto;
+        width: 100%;
+    }
+
+    .label::before {
+        right: -1%;
+    }
+
+    #section-5 .container .section-5-inner {
+        padding: 0px 0 45px 0;
+    }
+
+    .section-5-inner .left-div h2 {
+        font-size: 22px;
+        line-height: 22.6px;
+    }
+
+    .section-5-inner .left-div p {
+        font-size: 14px;
+        line-height: 14px;
+        margin-bottom: 30px;
+    }
+
+    .form-container form .form-btn {
+        font-size: 12px;
+        line-height: 22px;
+        width: 93px;
+        height: 28px;
+    }
+
+    footer .container .footer-inner {
+        flex-direction: column;
+    }
+
+    footer {
+        height: 105px;
+        padding-bottom: 28px;
+    }
+
+    #scroll {
+        right: 8px;
+    }
+}
+/* ========================= 350px The End ================================ */
+
+@media screen and (max-width: 350px){
+    .hero {
+        height: 100vh;
+    }
+    .hero-slider{
+        padding: 0 0px;
+    }
+    #prev-btn, #next-btn {
+        width: 45px;
+        height: 45px;
+    }
+}
+
+
+/* ========================= 320px The End ================================ */
